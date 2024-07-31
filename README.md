@@ -18,20 +18,20 @@ I have revised the core/additional features section in my Project Proposal, whic
 	
 Core features:  
 
-Two countdowns should be clearly displayed: the game countdown (T-60) and the turn countdown (T-5). These stats should be clear and visually “reactive” (e.g. if a turn is lost, the turn countdown turns red; if the game is lost, the game countdown turns red) 
-Point counting should be clear and “reactive” (e.g. when the user gains points, the point counter section should flash green; if points are lost, it should flash red) 
-Shuffling of items for each turn, with varying numbers of items (e.g. the first turn might have two items – apple and banana – but the last turn might have fifteen items). This shuffling could be done either randomly or by pre-programming various level “initializations” (that also have a random element of what order they are presented in). I will start with the random approach and see how much I need to “customize” it to make the game adequate.  
+•	Two countdowns should be clearly displayed: the game countdown (T-60) and the turn countdown (T-5). These stats should be clear and visually “reactive” (e.g. if a turn is lost, the turn countdown turns red; if the game is lost, the game countdown turns red) 
+•	Point counting should be clear and “reactive” (e.g. when the user gains points, the point counter section should flash green; if points are lost, it should flash red) 
+•	Shuffling of items for each turn, with varying numbers of items (e.g. the first turn might have two items – apple and banana – but the last turn might have fifteen items). This shuffling could be done either randomly or by pre-programming various level “initializations” (that also have a random element of what order they are presented in). I will start with the random approach and see how much I need to “customize” it to make the game adequate.  
 
 Additional features: 
 
-Cool animations (fruits/vegetables exploding into little cubes when diced… dancing fruits when the game is won… etc.) 
-Advanced reactivity from the chef NPC (e.g. “too slow” when the turn countdown runs out) 
-(Extra: Tracking top scores of players?) 
+•	Cool animations (fruits/vegetables exploding into little cubes when diced… dancing fruits when the game is won… etc.) 
+•	Advanced reactivity from the chef NPC (e.g. “too slow” when the turn countdown runs out) 
+•	(Extra: Tracking top scores of players?) 
   
 
 I also revised the technology stack:
 		
-Technology stack: javascript (with html + css) 
+•	Technology stack: javascript (with html + css) 
 
 At the time of writing this, I'm not sure about what other tech I will integrate into this project. One idea is to use React. 
 
@@ -40,14 +40,17 @@ At the time of writing this, I'm not sure about what other tech I will integrate
 Section 2 - Overview
 
 2.1 Purpose
-The intended audience is English-language learners. The initial version of Dice or Die that I am creating is specifically for low-level learners (A2). However, theoretically, the user should be able to change the difficulty of the game before playing, so it could also appeal to high-level learners (B2, C1, etc.). 
+
+The intended audience is English-language learners. The initial version of Dice or Die that I am creating is specifically for low-level learners (A2). However, theoretically, the user should be able to change the difficulty of the game before playing, so it could also appeal to high-level learners (B2, C1, etc.). I would achieve this by "scaling" the language (harder vocabulary) and increasing the speed at which the chef speaks. 
 
 2.2 Scope
+
 As mentioned earlier, this mini-game is just one part of a larger application called “Anglophoria,” a site for English-language leaners to practice their English skills (specifically for improving their speed and confidence through fun games, rather than really “teaching” them grammar rules, etc.). 
 
 2.3 Requirements
+
 For the purposes of this assignment, I want to ensure that the game has:
-1.	Seamless gameplay, including flawless button controls (start game, replay, see instructions, etc.), accurate countdowns (60 seconds for the whole game, 5 seconds for each turn), and general functionality (clicking on the correct item earns points, clicking on the wrong item loses points, etc.)
+1.	Seamless gameplay, including flawless button controls (start game, replay, see instructions, etc.), accurate countdowns (60 seconds for the whole game, 5 seconds for each turn), and accurate point counting (clicking on the correct item earns points, clicking on the wrong item loses points, etc.)
 2.	Visually appealing hand-drawn elements
    
 2.3.1 Functional Requirements
