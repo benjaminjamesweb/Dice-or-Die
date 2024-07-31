@@ -19,13 +19,17 @@ I have revised the core/additional features section in my Project Proposal, whic
 Core features:  
 
 •	Two countdowns should be clearly displayed: the game countdown (T-60) and the turn countdown (T-5). These stats should be clear and visually “reactive” (e.g. if a turn is lost, the turn countdown turns red; if the game is lost, the game countdown turns red) 
+
 •	Point counting should be clear and “reactive” (e.g. when the user gains points, the point counter section should flash green; if points are lost, it should flash red) 
+
 •	Shuffling of items for each turn, with varying numbers of items (e.g. the first turn might have two items – apple and banana – but the last turn might have fifteen items). This shuffling could be done either randomly or by pre-programming various level “initializations” (that also have a random element of what order they are presented in). I will start with the random approach and see how much I need to “customize” it to make the game adequate.  
 
 Additional features: 
 
 •	Cool animations (fruits/vegetables exploding into little cubes when diced… dancing fruits when the game is won… etc.) 
+
 •	Advanced reactivity from the chef NPC (e.g. “too slow” when the turn countdown runs out) 
+
 •	(Extra: Tracking top scores of players?) 
   
 
@@ -50,34 +54,51 @@ As mentioned earlier, this mini-game is just one part of a larger application ca
 2.3 Requirements
 
 For the purposes of this assignment, I want to ensure that the game has:
+
 1.	Seamless gameplay, including flawless button controls (start game, replay, see instructions, etc.), accurate countdowns (60 seconds for the whole game, 5 seconds for each turn), and accurate point counting (clicking on the correct item earns points, clicking on the wrong item loses points, etc.)
+   
 2.	Visually appealing hand-drawn elements
    
 2.3.1 Functional Requirements
+
 •	R1: The game first allows the user to click “start game” or “instructions”
+
 •	R2: clicking “instructions” opens up an appropriate description of the game, that the user can exit out of to return to the main start screen
+
 •	R3: clicking “start game” correctly initializes the game
+
 •	R4: the game has simple, intuitive UI, allowing a first-time player to start the game with no confusion. 
+
 •	R5: There are three displays at the top of the screen: time remaining for the game (counting down from 60 seconds), time remaining in the turn (5 seconds), and total points earned
-•	R6: There should be about 20 fruit and veggie icons displayed. 
-•	R7: There should be a “chef” in the bottom right of the screen, who tells the user which fruit or veggie to click (either orally or just in a speech bubble)
+
+•	R6: There should be about ~20 fruit and veggie icons displayed (although maybe less at the start). 
+
+•	R7: There should be a “chef” in the bottom right of the screen, who tells the user which fruit or veggie to click (ideally this would be done orally, but I'm going to start with just a speech bubble)
+
 •	R8: The basic game functionality should be flawless: clicking the correct fruit/veggie earns the user 10 points, and they move on immediately to the next turn; clicking the wrong fruit/veggie loses the user 5 points; if the user fails to pass the turn, there should be a “waiting time” of a few seconds before they can start the next turn
+
 •	R9: This logic should be made clear to the user through intuitive visual elements (e.g. when points are lost, the points should turn red momentarily, as 5 points are subtracted; when the turn is lose, the turn countdown should also turn red, etc.)
+
 •	R10: When the game is over (60 seconds have passed), the game should display some sort of message to the user, either congratulating them or not, and ask them if they want to play again.
 
 2.3.2 Non-Functional Requirements
+
 The game should only allow one user at a time. It should not crash or lag for any reason. It should run smoothly on any browser (hosted on github pages). 
 
 2.3.3 Technical Requirements
+
 Standard technical requirements (for a web app) apply. It should run flawlessly on any computer or laptop. My project is a web app (in javascript, html, css) so I don’t think there is no specific requirements for the hardware, etc.
 
 2.3.4 Security Requirements
+
 My app is a simple web app, so there are no specific security requirements. 
 
 2.3.5 Estimates
+
 It's hard for me to give estimated for each individual part of the game. My estimate for total completion of the game is 15 hours. If completed earlier, I might spend additional time implementing client-server architecture. 
 
 2.3.6 Traceability Matrix
+
 Omitted - I don't understand this part. 
 	
 	
