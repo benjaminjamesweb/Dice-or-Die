@@ -10,7 +10,29 @@ Dice or Die is a mini-game in which the player must chop (click) on the correct 
 This mini-game takes place inside a larger application that I am developing, called “Anglophoria,” which is a site that offers a wide variety of mini-games for English-language learners. 
 
 1.3 Revision History
-Not applicable (nothing to revise yet)
+I have revised the core/additional features section in my Project Proposal, which I will paste here: 
+	
+Core features:  
+
+Two countdowns should be clearly displayed: the game countdown (T-60) and the turn countdown (T-5). These stats should be clear and visually “reactive” (e.g. if a turn is lost, the turn countdown turns red; if the game is lost, the game countdown turns red) 
+Point counting should be clear and “reactive” (e.g. when the user gains points, the point counter section should flash green; if points are lost, it should flash red) 
+Shuffling of items for each turn, with varying numbers of items (e.g. the first turn might have two items – apple and banana – but the last turn might have fifteen items). This shuffling could be done either randomly or by pre-programming various level “initializations” (that also have a random element of what order they are presented in). I will start with the random approach and see how much I need to “customize” it to make the game adequate.  
+
+Additional features: 
+Cool animations (fruits/vegetables exploding into little cubes when diced… dancing fruits when the game is won… etc.) 
+Advanced reactivity from the chef NPC (e.g. “too slow” when the turn countdown runs out) 
+(Extra: Tracking top scores of players?) 
+  
+
+
+I also updated part of the game desciption: 
+Dice or Die takes place in a restaurant kitchen. In the corner of the screen, a chef calls out the ingredients he/she needs (e.g. “tomato… apple… lettuce…”). After hearing each item, the user is presented with a screen of options (various fruits/vegetables) and has only a few seconds to click on the appropriate item. When clicked, the item is clicked (chopped up), the user gains points (+10 points), and then the chef proceeds to call out the next item(s). However, if the player clicks on the wrong item, they will lose points (-5 points). To win the game, they must have enough points by the time the game is over (maybe a threshold of 50 points?). The full game lasts 60 seconds. It’s supposed to be fast and exciting, not boring. It should also be hard to win, so the user plays it many times.  
+
+  I have also revised the technology stack:
+		
+		Technology stack: javascript (with html + css) 
+
+  At the time of writing this, I'm not sure about what other tech I will integrate into this project. One idea is to use React. 
 
 	
 		
